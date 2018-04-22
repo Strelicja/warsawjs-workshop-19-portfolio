@@ -1,0 +1,100 @@
+body, h1, p {
+    margin: 0;
+}
+
+#page {
+	width: 720px;
+	margin-left: auto;
+	margin-right: auto;
+	align:center;
+	background-image: url(https://picsum.photos/720/300);
+	background-repeat: no-repeat;
+}
+#banner {
+	height: 300px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+h1 {
+	font-size: 70px;
+}
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+#gallery h1 {
+	font-size: 60px;
+	margin: 20px 0;
+}
+form label {
+	font-size: 40px;
+	margin-right: 50px;
+}
+
+#menu {
+	margin-top: -39px;
+	font-size: 30px;
+}
+
+#menu a {
+		color: white;
+		text-decoration: none;
+		text-transform: uppercase;
+	}
+#menu li {
+	background-color: #43576b;
+	padding: 5px 15px;
+	border-radius: 5px;
+}
+
+#menu a:hover {
+	background-color: silver;
+	color: red;
+}
+#menu li:hover {
+	background-color: silver;
+}
+
+figure {
+    float: left;
+    height: 300px;
+    margin: 1.5em;
+    width: 300px;
+    -webkit-transform: perspective(500);
+    -webkit-transform-style: preserve-3d;
+    -webkit-transition: .5s;
+}
+figure:hover {
+    -webkit-transform: perspective(500) rotateX(90deg) translateY(-3em) translateZ(3em);
+}
+img {
+    background-color: #43576b;
+    box-shadow: 0 20px 15px -10px hsla(0,0%,0%,.25);
+    display: block;
+    height: 100%;
+    -webkit-transition: .5s;
+}
+figure:hover img {
+    box-shadow: none;
+}
+figcaption {
+    background-color: #43576b;
+    color: #fff;
+    padding: 1.5em;
+    -webkit-transform: rotateX(-90deg);
+    -webkit-transform-origin: 100% 0;
+    -webkit-transition: .5s;
+}
+figure:hover figcaption {
+    box-shadow: 0 20px 15px -10px hsla(0,0%,0%,.25);
+}
+
+#newsletter {
+	margin-bottom: 100px;
+}
