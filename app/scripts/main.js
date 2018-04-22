@@ -15,3 +15,4 @@ $form.addEventListener("submit", function submit(e) {
 	displayMessage(`Jeśli wiesz jak wygląda ten znak back-tick, wyślij maila na adres: ${formMessage} `);
 	
 });
+
