@@ -1,5 +1,5 @@
 
-
+window.name = '====';
 const $form = document.querySelector('form');
 function displayMessage(formMessage) {
 		alert(formMessage);
@@ -11,7 +11,7 @@ $form.addEventListener("submit", function submit(e) {
 	const map = new Map(formObject);
 	const formMessage = map.get('email');
 	
-	displayMessage(`Jeśli wiesz jak wygląda ten znak back-tick, wyślij maila na adres: ${formMessage} `);
+	displayMessage(`Jeśli wiesz jak wygląda znak back-tick, wyślij maila na adres: ${formMessage} `);
 	
 });
 
