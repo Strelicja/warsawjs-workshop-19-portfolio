@@ -1,0 +1,21 @@
+{
+  "name": "warsawjs-workshop-19-portfolio",
+  "version": "1.0.0",
+  "description": "[https://strelicja.github.io/warsawjs-workshop-19-portfolio]",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages-deploy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Strelicja/warsawjs-workshop-19-portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Strelicja/warsawjs-workshop-19-portfolio/issues"
+  },
+  "homepage": "https://github.com/Strelicja/warsawjs-workshop-19-portfolio#readme"
+}
